@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: lightskyblue;
+}
+h1{
+    padding-top:20px;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(4, 4, 69);
+    box-sizing:border-box;
+
+}
+ul{
+list-style:none;
+padding:2em 5em;
+}
+ul li{
+    display:flex;
+    gap:10px;
+    border-bottom:rgba(0, 51, 255, 0.571) solid 1.5px;
+    padding:7px;
+}
+.getTasks{
+    display:flex;
+    justify-content:center;
+    position:fixed;
+    bottom:20px;
+    left:40px;
+    right:40px;
+    box-sizing:border-box;
+}
+.getTasks input{
+    padding:0;
+    margin:0;
+    width:80%;
+    height:2rem;
+    font-size:16px;
+    background-color: rgba(240, 252, 255, 0.772);
+    border:blue solid 1.5px;
+}
+.getTasks input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(0, 51, 255, 0.571);
+}
+
+.getTasks button{
+    width:20%;
+    background-color: darkblue;
+    color:azure;
+    text-align: center;
+}
+.getTasks button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.listTasks p{
+    height:3rem;
+    
+}
+.listTasks button{
+    margin-left:auto;
+    height:1.7rem;
+    padding:5px;
+    right:10px;
+    background-color: darkblue;
+    color:azure;
+    border:white solid 1px;
+}
+.listTasks button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgba(0, 0, 139, 0.279);
+    font-weight: 200;
+    color: black;
+}
+.listTasks input{
+    width:20px;
+}
+.listTasks span{
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    line-height: 20px;
+    overflow:hidden;
+    color:navy;
+
+}
